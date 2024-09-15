@@ -1,0 +1,1 @@
+DATA = https://universe.roboflow.com/teste1-lkry7/dog-6jdxm/dataset/1
