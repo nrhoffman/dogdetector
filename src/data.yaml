@@ -1,13 +1,13 @@
-train: C:/Users/nhoff/Documents/Data/dog.yolov9/train/images
-val: C:/Users/nhoff/Documents/Data/dog.yolov9/valid/images
-test: C:/Users/nhoff/Documents/Data/dog.yolov9/test/images
+train: C:/Users/nhoff/Documents/Data/dogs/train/images
+val: C:/Users/nhoff/Documents/Data/dogs/valid/images
+test: C:/Users/nhoff/Documents/Data/dogs/test/images
 
-nc: 2
-names: ['Cat', 'dog']
+nc: 22
+names: ['CloseEyes', 'CloseMouth', 'DownHead', 'DownTail', 'DropEar', 'Front', 'Frown', 'Lay', 'LayHead', 'MidTail', 'OpenEyes', 'OpenMouth', 'Run', 'Sit', 'Snarl', 'Stand', 'TiltHead', 'UpEar', 'UpEar are annotated in YOLOv9 format.', 'UpHead', 'UpTail', 'Walk']
 
 roboflow:
-  workspace: teste1-lkry7
-  project: dog-6jdxm
-  version: 1
+  workspace: pr1
+  project: dog-icmwl
+  version: 3
   license: CC BY 4.0
-  url: https://universe.roboflow.com/teste1-lkry7/dog-6jdxm/dataset/1
+  url: https://universe.roboflow.com/pr1/dog-icmwl/dataset/3
